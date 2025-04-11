@@ -30,14 +30,16 @@ async function Home() {
             Practice real interview questions & get instant feedback
           </p>
 
-          <Button asChild className="btn-primary max-sm:w-full">
-            <Link href="/interview">Start an Interview</Link>
-          </Button>
-          <Button asChild className="btn-primary max-sm:w-full">
-            <Link href="https://sigma-ai-career-coach.vercel.app/">
-              Level Up
-            </Link>
-          </Button>
+          <div className="flex gap-4">
+            <Button asChild className="btn-primary max-sm:w-full">
+              <Link href="/interview">Start an Interview</Link>
+            </Button>
+            <Button asChild className="btn-primary max-sm:w-full">
+              <Link href="https://sigma-ai-career-coach.vercel.app/">
+                Level Up
+              </Link>
+            </Button>
+          </div>
         </div>
         <Image
           src="/robot.png"
