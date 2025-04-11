@@ -39,7 +39,6 @@ async function Home() {
             </Link>
           </Button>
         </div>
-
         <Image
           src="/robot.png"
           alt="robo-dude"
