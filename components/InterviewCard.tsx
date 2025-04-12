@@ -102,6 +102,9 @@ const InterviewCard = async ({
               {feedback ? "Check Feedback" : "View Interview"}
             </Link>
           </Button>
+          <Button className="btn-primary">
+            <Link href="/checkout">Pay</Link>
+          </Button>
         </div>
       </div>
     </div>
